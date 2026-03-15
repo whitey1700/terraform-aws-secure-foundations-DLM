@@ -1,3 +1,7 @@
+## Project Context
+
+This repository contains a cleaned public version of an Infrastructure-as-Code project developed for learning and demonstration purposes. The original project was developed and iterated on privately while studying AWS and Terraform. This public version reflects the final architecture and configuration used to deploy the infrastructure.
+
 # \# Terraform AWS Secure Foundations
 
 # 
