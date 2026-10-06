@@ -6,12 +6,9 @@ resource "aws_iam_policy" "permeon_validation" {
 
     Statement = [
       {
-        Effect = "Allow"
-        Action = [
-          "iam:PassRole",
-          "s3:DeleteObject"
-        ]
-        Resource = "*"
+        Effect   = "Allow"
+        Action   = "s3:GetObject"
+        Resource = "arn:aws:s3:::example-bucket/*"
       }
     ]
   })
