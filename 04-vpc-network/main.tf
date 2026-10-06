@@ -21,7 +21,7 @@ provider "aws" {
   region = "us-west-2"
 
   assume_role {
-    role_arn = "arn:aws:iam::617197583972:role/TerraformAdminRole"
+    role_arn = "arn:aws:iam::<ACCOUNT HOLDER>:role/TerraformDeploymemt Role"
   }
 }
 
